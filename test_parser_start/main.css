@@ -1,26 +1,130 @@
 body {
 
+    border: 0px;
     margin: 0px;
     padding: 0px;
-    background: #444444;
+    background: #DDD;
 
 }
+
+/* Header block */
 
 .header {
 
     margin: 0px;
+    padding: 0px;
     border: 0px;
-    background: rgba(0,0,0,0);
+    background: rgb(166, 219, 173);
+    display: block;
+    height: 100px;
 
 }
+
+.header__underpanel {
+
+    margin: 10px;
+    border-radius: 7px;
+    border: 0px;
+    padding: 10px;
+    display: block;
+    background: rgb(137, 195, 144);
+    background: linear-gradient(to left, rgb(141, 213, 149), rgb(153, 184, 157));
+
+}
+
+.header__underpanel_orientation {
+
+    display: inline;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.header__underpanel_input {
+
+    padding: 5px;
+    margin: 0px;
+    background: rgb(166, 219, 173);
+    border: 0px;
+    font-family: monospace;
+    font-size: 14px;
+    color: rgb(97, 122, 100);
+    transition: 300ms background,color;
+
+}
+
+.header__underpanel_input:hover {
+
+    background: rgb(98, 181, 127);
+    color: rgb(100, 120, 77);
+
+}
+
+.header__underpanel_input:focus {
+
+    background: rgb(78, 147, 102);
+    color: rgb(160, 193, 123);
+
+}
+
+/* Labels block */
+
+.label__big {
+
+    font-family: Segoe UI;
+    color: #494949;
+    font-weight: 200;
+    font-size: 35px;
+    padding: 20px 5px 20px 5px;
+
+
+}
+.label__small {
+
+    font-family: Segoe UI;
+    color: #464646;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 18px;
+
+
+}
+
+/* Buttons block */
+
+.button__common {
+
+    display: block;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(194, 199, 194), rgb(158, 230, 167));
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(81, 96, 73);
+    transition: 150ms background,color;
+
+}
+
+.button__common:hover {
+
+    background: linear-gradient(to right, rgb(115, 170, 122), rgb(137, 142, 137));
+
+}
+
+
+
 
 
 
 
 
 /*
-
-EBU SLONOV
 
 # - id selector
 . - class selector

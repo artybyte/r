@@ -27,7 +27,6 @@ body {
     border: 0px;
     padding: 10px;
     display: block;
-    background: rgb(137, 195, 144);
     background: linear-gradient(to left, rgb(141, 213, 149), rgb(153, 184, 157));
 
 }
@@ -57,7 +56,6 @@ body {
 .header__underpanel_input:hover {
 
     background: rgb(98, 181, 127);
-    color: rgb(100, 120, 77);
 
 }
 
@@ -102,20 +100,58 @@ body {
     padding: 5px;
     border: 2px;
     border-radius: 5px;
-    background: linear-gradient(to right, rgb(194, 199, 194), rgb(158, 230, 167));
+    background: rgb(157, 230, 166);
     font-family: Segoe UI;
     font-weight: 400;
     font-size: 16px;
     color: rgb(81, 96, 73);
-    transition: 150ms background,color;
+    transition: 80ms all;
 
 }
 
 .button__common:hover {
 
-    background: linear-gradient(to right, rgb(115, 170, 122), rgb(137, 142, 137));
+    background: rgb(127, 185, 134);
+    color: rgb(203, 224, 184);
+    cursor: pointer;
 
 }
+
+.button__common:active {
+
+    transition: 20ms all;
+    background: rgb(100, 164, 107);
+    color: rgb(127, 241, 138);
+
+}
+
+/* Song container */
+
+.song_container {
+
+    margin: 60px 10px 10px 10px;
+    background: rgb(137, 195, 144);
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+
+}
+
+.song_container_element {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

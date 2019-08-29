@@ -14,7 +14,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background: rgb(166, 219, 173);
+    background: rgb(147, 185, 152);
     display: block;
     height: 100px;
 
@@ -22,11 +22,12 @@ body {
 
 .header__underpanel {
 
-    margin: 10px;
+    margin: 100px auto 10px auto;
     border-radius: 7px;
     border: 0px;
     padding: 10px;
     display: block;
+    width: 50%;
     background: linear-gradient(to left, rgb(141, 213, 149), rgb(153, 184, 157));
 
 }
@@ -128,8 +129,12 @@ body {
 /* Song container */
 
 .song_container {
-
-    margin: 60px 10px 10px 10px;
+    margin: 5px auto 10px auto;
+    border-radius: 7px;
+    border: 0px;
+    padding: 10px;
+    display: block;
+    width: 50%;
     background: rgb(137, 195, 144);
     border-radius: 5px;
     padding: 20px 10px 10px 10px;

@@ -1,0 +1,25 @@
+{
+  "name": "r",
+  "version": "1.0.0",
+  "description": "kek",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express-generator": "^4.16.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node test_parser_start/script/index.js",
+    "autoreload": "nodemon test_parser_start/script/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artybyte/r.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artybyte/r/issues"
+  },
+  "homepage": "https://github.com/artybyte/r#readme"
+}

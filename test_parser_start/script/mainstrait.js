@@ -1,1 +1,1 @@
-p("init")
+let something = 'something';
